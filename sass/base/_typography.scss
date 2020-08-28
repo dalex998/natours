@@ -1,8 +1,30 @@
+html {
+  font-size: 62.5%;
+}
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  font-size: 62.5%;
   //now we can use rem units across the website:
   //1rem = 10px because 16px is the default size for font by the browser
   line-height: $default-line-height;
+}
+
+.heading-primary {
+  color: $color-white;
+  text-transform: uppercase;
+  text-align: center;
+  &-main {
+    display: block;
+    font-size: 6rem;
+    letter-spacing: 3.5rem;
+    font-weight: 400;
+    padding-left: 3.5rem;
+  }
+  &-sub {
+    display: block;
+    font-size: 2rem;
+    letter-spacing: 1.5rem;
+    font-weight: 700;
+    padding-left: 1.5rem;
+  }
 }
