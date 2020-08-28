@@ -1,0 +1,16 @@
+//there is a strict order to do imports
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/placeholders";
+@import "abstracts/variables";
+
+@import "base/animations";
+@import "base/base";
+@import "base/reset";
+@import "base/typography";
+
+@import "layout/header";
+
+//@import "components/...";
+
+@import "pages/home";

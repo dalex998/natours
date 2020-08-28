@@ -1,0 +1,8 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 62.5%;
+  //now we can use rem units across the website:
+  //1rem = 10px because 16px is the default size for font by the browser
+  line-height: 1.7;
+}
