@@ -22,15 +22,17 @@
     transform: translateY(-1px);
     box-shadow: 0 5rem 10rem rgba(0, 0, 0, 0.2);
   }
-  &-white {
+  &--white {
     background-color: $color-white;
     color: $color-grey-dark;
   }
-  &-green {
+  &--green {
+    background-color: $color-primary;
+    color: $color-white;
   }
 
   &::after {
-    content: '';
+    content: "";
     display: inline-block;
     height: 100%;
     width: 100%;
