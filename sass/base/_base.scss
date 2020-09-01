@@ -1,4 +1,8 @@
 body {
   // top right bottom left || top right&left bottom || top&bottom right&left
   padding: $page-padding;
+
+  @include respond(tab-port) {
+    padding: 0;
+  }
 }
