@@ -28,6 +28,15 @@
     opacity: 0;
     transform: translate(-50%, -50%) scale(0);
     transition: all 0.4s 0.2s;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    @supports (-webkit-backdrop-filter: blur(10px)) or
+      (backdrop-filter: blur(10px)) {
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      background-color: $color-white;
+    }
   }
 
   &:target &__content {
